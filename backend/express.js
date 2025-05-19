@@ -1,7 +1,6 @@
 import express from "express";
 const app=express();
 const user =[
-    
 ]
 const message={
     "message":"No data found",
@@ -13,7 +12,7 @@ app.get("/",(req,res)=>{
       }
 })
 app.post('/sum',(req,res)=>{
-   const {num,num2}=req.body;
+   const {num1,num2}=req.body;
    const sum=num1+num2;
    res.status(201).json({
     "sum":sum
