@@ -17,7 +17,7 @@ app.post('/sum',(req,res)=>{
    res.status(201).json({
     "sum":sum
    })
-
+  
 })
 app.get('/user',(req,res)=>{
     res.send("user data")
@@ -28,6 +28,4 @@ app.get('/profile',(req,res)=>{
 app.listen(3000,(req,res)=>{
     console.log("app is running on port 3000")
 })
-//git add .
-// git commit -m"dff
-//git push origin main
+
